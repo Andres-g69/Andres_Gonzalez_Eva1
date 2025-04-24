@@ -1,27 +1,25 @@
-/*body{
-    color: aquamarine;
-    font-family: 'Courier New', Courier, monospace;
-}*/
 
 h1{
-    color: aquamarine;
+    color: rgb(0, 0, 0);
     font-family: 'Courier New', Courier, monospace;
 }
 #title{
-    color: darkorchid;
+    color: rgb(255, 0, 0);
     font-family: sans-serif;
+    text-align: justify;
+    font-size: 2rem;
 }
-/*p{
-    color: rgba(5, 177, 168, 0.733);
-    font-family: fantasy;
-}*/
-.text{
-    color: blue;
+.link{
+    color:blue;
     font-family: 'Times New Roman', Times, serif;
+    text-align: justify;
+    font-size: 1.5rem;
 }
-.nuevo{
-    color: aqua;
-    text-align: right;
+.text{
+    color: rgb(0, 0, 0);
+    font-family: 'Times New Roman', Times, serif;
+    text-align: justify;
+    font-size: 1.5rem;
 }
 div p{
     color: fuchsia;
@@ -37,20 +35,24 @@ div h2, h3{
     border-color: rgb(26, 133, 133);
     border-width: 10px;
     border-radius: 40px;
+    font-size: 3rem;
 }
 #fondo{
     color: rgb(255, 255, 255);
-    background-color: rgb(52, 45, 58);
     /*opacity:0.3;*/
-    height: 200px;
-    background-image: url("C:/Users/alumnosnunoa/Downloads/descarga.jpg");
+    height: 500px;
+    background-image: url("imagen.avif");
+    background-size:contain
+    
     
 }
 .margen{
     text-align: center;
-    background-color: rgb(44, 196, 132);
-    margin: 20px 20px 20px 20px;
-    padding: 35px 35px 35px 35px;
+    background-color: rgb(248, 255, 252);
+    margin: 40px 40px 40px 40px;
+    padding: 30px 30px 30px 30px;
     border: 8px rgb(29, 105, 105) solid;
     border-radius: 40px;
+    opacity:0.8;
+    font-size: 3rem;
 }
