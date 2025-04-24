@@ -1,0 +1,56 @@
+/*body{
+    color: aquamarine;
+    font-family: 'Courier New', Courier, monospace;
+}*/
+
+h1{
+    color: aquamarine;
+    font-family: 'Courier New', Courier, monospace;
+}
+#title{
+    color: darkorchid;
+    font-family: sans-serif;
+}
+/*p{
+    color: rgba(5, 177, 168, 0.733);
+    font-family: fantasy;
+}*/
+.text{
+    color: blue;
+    font-family: 'Times New Roman', Times, serif;
+}
+.nuevo{
+    color: aqua;
+    text-align: right;
+}
+div p{
+    color: fuchsia;
+    text-align: center;
+    font-family: inherit;
+}
+div h2, h3{
+    color: teal;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.colores{
+    border-style: double;
+    border-color: rgb(26, 133, 133);
+    border-width: 10px;
+    border-radius: 40px;
+}
+#fondo{
+    color: rgb(255, 255, 255);
+    background-color: rgb(52, 45, 58);
+    /*opacity:0.3;*/
+    height: 200px;
+    background-image: url("C:/Users/alumnosnunoa/Downloads/descarga.jpg");
+    
+}
+.margen{
+    text-align: center;
+    background-color: rgb(44, 196, 132);
+    margin: 20px 20px 20px 20px;
+    padding: 35px 35px 35px 35px;
+    border: 8px rgb(29, 105, 105) solid;
+    border-radius: 40px;
+}
